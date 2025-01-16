@@ -17,12 +17,11 @@ maintainers = [
 
 description = "preprocessing functions for ChIP-seq and RNA-seq in Fungi with WonderPeaks"
 readme = "README.md"
-license = "MIT"
-license-files = ["LICEN[CS]E.*"]
+license = { text = "MIT" }
 keywords = ["ChIP-seq", "RNA-seq", "NGS", "WonderPeaks", "peak calling", "UTR", "dynamic UTR", "Fungi", "Yeast"]
 
 classifiers = [
-  "Development Status :: Beta",
+  "Development Status :: 4 - Beta",
   "Programming Language :: Python"
 ]
 
