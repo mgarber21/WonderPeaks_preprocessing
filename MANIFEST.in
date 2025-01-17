@@ -1,0 +1,2 @@
+recursive-include WonderPeaks_preprocessing *
+prune **/__pycache__
