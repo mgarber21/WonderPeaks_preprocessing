@@ -4,9 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "WonderPeaks_preprocessing"
-version = "0.1.0"
+version = "0.2.3" # Match the version in pyproject.toml 
 requires-python = ">=3.8"
 
+dependencies = [
+    "deepTools==3.5.1",
+    "deeptoolsintervals==0.1.9",
+    "multiqc==1.10.1",]
 authors = [
   {name = "Megan E. Garber", email = "mgarber21@gmail.com"},
 ]
@@ -22,12 +26,12 @@ keywords = ["ChIP-seq", "RNA-seq", "NGS", "WonderPeaks", "peak calling", "UTR", 
 
 classifiers = [
   "Development Status :: 4 - Beta",
-  "Programming Language :: Python"
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8"
 ]
-
 
 [project.urls]
 Repository = "https://github.com/mgarber21/WonderPeaks_preprocessing.git"
 "Bug Tracker" = "https://github.com/mgarber21/WonderPeaks_preprocessing/issues"
-
 
