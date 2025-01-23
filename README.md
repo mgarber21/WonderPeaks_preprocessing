@@ -1,5 +1,5 @@
 
-# Installation Guide for WonderPeaks
+# Installation Guide for WonderPeaks_preprocessing
 
 ## 1. Prerequisites
 
