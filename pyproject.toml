@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "WonderPeaks_preprocessing"
-version = "0.2.3" # Match the version in pyproject.toml 
-requires-python = ">=3.8"
+version = "0.2.4" # Match the version in pyproject.toml 
+requires-python = ">=3.6"
 
 dependencies = [
     "deepTools==3.5.1",
@@ -21,7 +21,7 @@ maintainers = [
 
 description = "preprocessing functions for ChIP-seq and RNA-seq in Fungi with WonderPeaks"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
 keywords = ["ChIP-seq", "RNA-seq", "NGS", "WonderPeaks", "peak calling", "UTR", "dynamic UTR", "Fungi", "Yeast"]
 
 classifiers = [

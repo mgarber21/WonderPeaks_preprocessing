@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="WonderPeaks_preprocessing",
-    version="0.2.3",  # Match the version in pyproject.toml
+    version="0.2.4",  # Match the version in pyproject.toml
     description="Preprocessing functions for ChIP-seq and RNA-seq in Fungi with WonderPeaks",
     author="Megan E. Garber",
     author_email="mgarber21@gmail.com",
